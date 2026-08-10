@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sat Aug  8 22:53:20 2026
+# Process ID         : 29208
+# Current directory  : C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.runs/synth_1
+# Command line       : vivado.exe -log add.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source add.tcl
+# Log file           : C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.runs/synth_1/add.vds
+# Journal file       : C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.runs/synth_1\vivado.jou
+# Running On         : PANT-TOP
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i7-14650HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 24
+# Host memory        : 25380 MB
+# Swap memory        : 1610 MB
+# Total Virtual      : 26991 MB
+# Available Virtual  : 4457 MB
+#-----------------------------------------------------------
+source add.tcl -notrace

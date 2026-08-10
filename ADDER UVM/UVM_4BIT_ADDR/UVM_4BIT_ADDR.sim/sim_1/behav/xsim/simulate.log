@@ -1,0 +1,141 @@
+Time resolution is 1 ps
+UVM_INFO C:/AMDDesignTools/2026.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test ...
+UVM_INFO C:/AMDDesignTools/2026.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_ERROR @ 0: run [TEST_DONE_NOHIER] A non-hierarchical object, 'common.run' (<unknown>) was used in a call to uvm_test_done.raise_objection(). For this objection, a sequence or component is required.
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(45) @ 0: TEST.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver a :6, b :3
+TRANS: (transaction@618) { a: 'h6  b: 'h3  y: 'h0  begin_time: 0  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(78) @ 0: TEST.ENV.AGENT.DRV [DRV] Trigger DUT a: 6, b: 3
+TRANS: (transaction@618) { a: 'h6  b: 'h3  y: 'h0  begin_time: 0  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(113) @ 10000: TEST.ENV.AGENT.MON [MON] Data send to Scoreboard
+TRANS: (transaction@586) { a: 'h6  b: 'h3  y: 'h9  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(141) @ 10000: TEST.ENV.SCO [SCO] Data rcvd from Monitor a :6, b : 3, y :9
+TRANS: (transaction@586) { a: 'h6  b: 'h3  y: 'h9  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(144) @ 10000: TEST.ENV.SCO [SCO] Test Passed
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(45) @ 10000: TEST.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver a :6, b :5
+TRANS: (transaction@618) { a: 'h6  b: 'h5  y: 'h0  begin_time: 10000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(78) @ 10000: TEST.ENV.AGENT.DRV [DRV] Trigger DUT a: 6, b: 5
+TRANS: (transaction@618) { a: 'h6  b: 'h5  y: 'h0  begin_time: 10000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(113) @ 20000: TEST.ENV.AGENT.MON [MON] Data send to Scoreboard
+TRANS: (transaction@586) { a: 'h6  b: 'h5  y: 'hb  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(141) @ 20000: TEST.ENV.SCO [SCO] Data rcvd from Monitor a :6, b : 5, y :11
+TRANS: (transaction@586) { a: 'h6  b: 'h5  y: 'hb  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(144) @ 20000: TEST.ENV.SCO [SCO] Test Passed
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(45) @ 20000: TEST.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver a :8, b :15
+TRANS: (transaction@618) { a: 'h8  b: 'hf  y: 'h0  begin_time: 20000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(78) @ 20000: TEST.ENV.AGENT.DRV [DRV] Trigger DUT a: 8, b: 15
+TRANS: (transaction@618) { a: 'h8  b: 'hf  y: 'h0  begin_time: 20000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(113) @ 30000: TEST.ENV.AGENT.MON [MON] Data send to Scoreboard
+TRANS: (transaction@586) { a: 'h8  b: 'hf  y: 'h17  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(141) @ 30000: TEST.ENV.SCO [SCO] Data rcvd from Monitor a :8, b : 15, y :23
+TRANS: (transaction@586) { a: 'h8  b: 'hf  y: 'h17  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(144) @ 30000: TEST.ENV.SCO [SCO] Test Passed
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(45) @ 30000: TEST.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver a :3, b :5
+TRANS: (transaction@618) { a: 'h3  b: 'h5  y: 'h0  begin_time: 30000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(78) @ 30000: TEST.ENV.AGENT.DRV [DRV] Trigger DUT a: 3, b: 5
+TRANS: (transaction@618) { a: 'h3  b: 'h5  y: 'h0  begin_time: 30000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(113) @ 40000: TEST.ENV.AGENT.MON [MON] Data send to Scoreboard
+TRANS: (transaction@586) { a: 'h3  b: 'h5  y: 'h8  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(141) @ 40000: TEST.ENV.SCO [SCO] Data rcvd from Monitor a :3, b : 5, y :8
+TRANS: (transaction@586) { a: 'h3  b: 'h5  y: 'h8  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(144) @ 40000: TEST.ENV.SCO [SCO] Test Passed
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(45) @ 40000: TEST.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver a :5, b :7
+TRANS: (transaction@618) { a: 'h5  b: 'h7  y: 'h0  begin_time: 40000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(78) @ 40000: TEST.ENV.AGENT.DRV [DRV] Trigger DUT a: 5, b: 7
+TRANS: (transaction@618) { a: 'h5  b: 'h7  y: 'h0  begin_time: 40000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(113) @ 50000: TEST.ENV.AGENT.MON [MON] Data send to Scoreboard
+TRANS: (transaction@586) { a: 'h5  b: 'h7  y: 'hc  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(141) @ 50000: TEST.ENV.SCO [SCO] Data rcvd from Monitor a :5, b : 7, y :12
+TRANS: (transaction@586) { a: 'h5  b: 'h7  y: 'hc  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(144) @ 50000: TEST.ENV.SCO [SCO] Test Passed
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(45) @ 50000: TEST.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver a :5, b :4
+TRANS: (transaction@618) { a: 'h5  b: 'h4  y: 'h0  begin_time: 50000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(78) @ 50000: TEST.ENV.AGENT.DRV [DRV] Trigger DUT a: 5, b: 4
+TRANS: (transaction@618) { a: 'h5  b: 'h4  y: 'h0  begin_time: 50000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(113) @ 60000: TEST.ENV.AGENT.MON [MON] Data send to Scoreboard
+TRANS: (transaction@586) { a: 'h5  b: 'h4  y: 'h9  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(141) @ 60000: TEST.ENV.SCO [SCO] Data rcvd from Monitor a :5, b : 4, y :9
+TRANS: (transaction@586) { a: 'h5  b: 'h4  y: 'h9  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(144) @ 60000: TEST.ENV.SCO [SCO] Test Passed
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(45) @ 60000: TEST.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver a :2, b :5
+TRANS: (transaction@618) { a: 'h2  b: 'h5  y: 'h0  begin_time: 60000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(78) @ 60000: TEST.ENV.AGENT.DRV [DRV] Trigger DUT a: 2, b: 5
+TRANS: (transaction@618) { a: 'h2  b: 'h5  y: 'h0  begin_time: 60000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(113) @ 70000: TEST.ENV.AGENT.MON [MON] Data send to Scoreboard
+TRANS: (transaction@586) { a: 'h2  b: 'h5  y: 'h7  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(141) @ 70000: TEST.ENV.SCO [SCO] Data rcvd from Monitor a :2, b : 5, y :7
+TRANS: (transaction@586) { a: 'h2  b: 'h5  y: 'h7  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(144) @ 70000: TEST.ENV.SCO [SCO] Test Passed
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(45) @ 70000: TEST.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver a :14, b :1
+TRANS: (transaction@618) { a: 'he  b: 'h1  y: 'h0  begin_time: 70000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(78) @ 70000: TEST.ENV.AGENT.DRV [DRV] Trigger DUT a: 14, b: 1
+TRANS: (transaction@618) { a: 'he  b: 'h1  y: 'h0  begin_time: 70000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(113) @ 80000: TEST.ENV.AGENT.MON [MON] Data send to Scoreboard
+TRANS: (transaction@586) { a: 'he  b: 'h1  y: 'hf  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(141) @ 80000: TEST.ENV.SCO [SCO] Data rcvd from Monitor a :14, b : 1, y :15
+TRANS: (transaction@586) { a: 'he  b: 'h1  y: 'hf  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(144) @ 80000: TEST.ENV.SCO [SCO] Test Passed
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(45) @ 80000: TEST.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver a :14, b :13
+TRANS: (transaction@618) { a: 'he  b: 'hd  y: 'h0  begin_time: 80000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(78) @ 80000: TEST.ENV.AGENT.DRV [DRV] Trigger DUT a: 14, b: 13
+TRANS: (transaction@618) { a: 'he  b: 'hd  y: 'h0  begin_time: 80000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(113) @ 90000: TEST.ENV.AGENT.MON [MON] Data send to Scoreboard
+TRANS: (transaction@586) { a: 'he  b: 'hd  y: 'h1b  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(141) @ 90000: TEST.ENV.SCO [SCO] Data rcvd from Monitor a :14, b : 13, y :27
+TRANS: (transaction@586) { a: 'he  b: 'hd  y: 'h1b  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(144) @ 90000: TEST.ENV.SCO [SCO] Test Passed
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(45) @ 90000: TEST.ENV.AGENT.SEQ@@GEN [GEN] Data send to Driver a :11, b :1
+TRANS: (transaction@618) { a: 'hb  b: 'h1  y: 'h0  begin_time: 90000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(78) @ 90000: TEST.ENV.AGENT.DRV [DRV] Trigger DUT a: 11, b: 1
+TRANS: (transaction@618) { a: 'hb  b: 'h1  y: 'h0  begin_time: 90000  depth: 'd2  parent sequence (name): GEN  parent sequence (full name): TEST.ENV.AGENT.SEQ.GEN  sequencer: TEST.ENV.AGENT.SEQ  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(113) @ 100000: TEST.ENV.AGENT.MON [MON] Data send to Scoreboard
+TRANS: (transaction@586) { a: 'hb  b: 'h1  y: 'hc  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(141) @ 100000: TEST.ENV.SCO [SCO] Data rcvd from Monitor a :11, b : 1, y :12
+TRANS: (transaction@586) { a: 'hb  b: 'h1  y: 'hc  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(144) @ 100000: TEST.ENV.SCO [SCO] Test Passed
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(113) @ 110000: TEST.ENV.AGENT.MON [MON] Data send to Scoreboard
+TRANS: (transaction@586) { a: 'hb  b: 'h1  y: 'hc  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(141) @ 110000: TEST.ENV.SCO [SCO] Data rcvd from Monitor a :11, b : 1, y :12
+TRANS: (transaction@586) { a: 'hb  b: 'h1  y: 'hc  } 
+UVM_INFO C:/Education Material/Coding edu/UVM/UVM_4BIT_ADDR/UVM_4BIT_ADDR.srcs/sim_1/new/tb.sv(144) @ 110000: TEST.ENV.SCO [SCO] Test Passed
+UVM_ERROR @ 110000: run [TEST_DONE_NOHIER] A non-hierarchical object, 'common.run' (<unknown>) was used in a call to uvm_test_done.drop_objection(). For this objection, a sequence or component is required.
+UVM_INFO C:/AMDDesignTools/2026.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 110000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO C:/AMDDesignTools/2026.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 110000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   57
+UVM_WARNING :    0
+UVM_ERROR :    2
+UVM_FATAL :    0
+** Report counts by id
+[DRV]    10
+[GEN]    10
+[MON]    11
+[RNTST]     1
+[SCO]    22
+[TEST_DONE]     1
+[TEST_DONE_NOHIER]     2
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+$finish called at time : 110 ns : File "C:/AMDDesignTools/2026.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
